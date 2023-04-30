@@ -20,7 +20,7 @@ import java.util.Locale;
 
 public class API {
 
-    private static final String RAW_URL = "https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyBpP1bA_Mxyn7V8k7tZD53wNUe9othx-6w&address=LOCATION";
+    private static final String RAW_URL = "https://www.googleapis.com/civicinfo/v2/representatives?key=<TODO INSERT KEY HERE>&address=LOCATION";
 
     public static void getSource(MainActivity mainActivity) {
         RequestQueue queue = Volley.newRequestQueue(mainActivity);
